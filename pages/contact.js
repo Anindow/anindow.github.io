@@ -1,10 +1,9 @@
-import Nav from "../components/Nav";
 
-const Contact = () => {
-    return ( <><main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+const Contact = ({ darkMode }) => {
+    return ( <div className={darkMode ? "dark" : ""}><main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
     <section className="min-h-screen">
-       <Nav /> </section></main>
-   </> );
+        </section></main>
+   </div> );
 }
  
 export default Contact;
