@@ -82,7 +82,7 @@ const Nav = ({ darkMode, setDarkMode }) => {
           <Link href="/contact">Contact</Link>
         </li>
         <li>
-        <ScrollLink to="work" smooth={true} duration={500} className="cursor-pointer"> 
+        <ScrollLink to="work" smooth={true} duration={500} className="cursor-pointer "> 
             Work
           </ScrollLink>
         </li>
