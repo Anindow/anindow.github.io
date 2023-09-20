@@ -103,7 +103,10 @@ const About = () => {
           <li>Git/GitHub/Bitbucket</li>
           <li>Tailwind CSS/Bootstrap</li>
           <li>Parcel/Webpack/Vite</li>
+          <li>Parcel/Webpack/Vite</li>
           <li>Express/Node.js</li>
+          <li>Express/Node.js</li>
+        </ul>
         </ul>
 
        
