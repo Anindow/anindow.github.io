@@ -12,7 +12,7 @@ const About = () => {
           Hey there...
         </span>
         <span
-          className="bg-gradient-to-r text-xl  from-cyan-500 py-4 pt-6 to-teal-500 text-transparent bg-clip-text relative z-10"
+          className="bg-gradient-to-r lg:text-xl text-xs from-cyan-500 py-4 pt-6  to-teal-500 text-transparent bg-clip-text relative z-10"
           id="more-about"
         >
           <br />
@@ -85,32 +85,7 @@ const About = () => {
           }
         `}</style>
       </div>
-      {/* <div className="font-5xl">
-        <h2 className="text-center text-4xl  mt-6 text-teal-600 font-semibold dark:text-teal-400">ABOUT MYSELF</h2>
-        <p className="text-center text-lg mt-4 dark:text-white">
-          An independent and self-motivated graduate with a strong enthusiasm
-          for making a difference. Innovative and detail-oriented, I
-          consistently deliver high-quality web solutions. I am passionate
-          about staying up-to-date with the latest technologies and trends in
-          the field. My commitment to driving project success through effective
-          communication and collaboration within teams sets me apart.
-        </p>
-
-        <h2 className="text-center text-4xl  mt-6 text-teal-600 font-semibold dark:text-teal-400">EXPERTISE</h2>
-        <ul className="text-center text-lg mt-4 dark:text-white">
-          <li>React/Next</li>
-          <li>HTML/CSS (Sass)/JavaScript</li>
-          <li>Git/GitHub/Bitbucket</li>
-          <li>Tailwind CSS/Bootstrap</li>
-          <li>Parcel/Webpack/Vite</li>
-          <li>Parcel/Webpack/Vite</li>
-          <li>Express/Node.js</li>
-          <li>Express/Node.js</li>
-        </ul>
-        </ul>
-
-       
-      </div> */} <br /><br /><br />
+    <br /><br /><br />
       <AboutCards />
       <br /><br /><br />
       <div className=" "> <Hobby /></div>

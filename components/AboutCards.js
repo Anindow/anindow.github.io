@@ -1,7 +1,7 @@
 const AboutCards = () => {
   return (
     <div className='font-5xl  lg:flex lg:justify-center lg:gap-5 '>
-      <div className='max-w-4xl p-6 bg-white border border-cyan-200 rounded-lg shadow-md hover:bg-gray-200 dark:bg-gray-800 dark:border-teal-700 dark:hover:bg-cyan-900 mb-10 '>
+      <div className='max-w-3xl p-6 bg-white border border-cyan-200 rounded-lg shadow-md hover:bg-gray-200 dark:bg-gray-800 dark:border-teal-700 dark:hover:bg-cyan-900 mb-10 '>
         <h5 className='text-center mb-12 text-4xl font-bold tracking-tight text-teal-600 dark:text-white mt-6'>
           About Myself
         </h5>

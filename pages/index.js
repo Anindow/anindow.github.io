@@ -20,15 +20,15 @@ export default function Home({ darkMode }) {
       </Head>
       <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
-          <div className='text-center p-10 py-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-semibold dark:text-teal-400 md:text-6xl'>
+          <div className='text-center p-10 '>
+            <h2 className='text-5xl pb-2 text-teal-600 font-semibold dark:text-teal-400 md:text-6xl'>
               Anindow Saikat
             </h2>
             <h3 className='text-2xl py-2 dark:text-white md:text-3xl'>
               Developer and designer.
             </h3>
-            <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'></p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 group relative cursor-pointer'>
+            <p className='text-md py-5  leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'></p>
+            <div className='text-5xl flex justify-center gap-16 pt-3  text-gray-600 dark:text-gray-400 group relative cursor-pointer'>
               <a href='https://www.facebook.com/AnindowS'>
                 <AiFillFacebook className='hover:text-teal-600 dark:text-teal-400' />
               </a>
@@ -41,7 +41,7 @@ export default function Home({ darkMode }) {
               </a>
               <div className='absolute top-0 -inset-full h-full w-1/2 z-5  block transform -skew-x-12 bg-gradient-to-r from-transparent to-white dark:to-slate-900 opacity-40 group-hover:animate-shine' />
             </div>
-            <div className='h-screen flex items-center justify-center -mt-14'>
+            <div className='h-screen flex items-center justify-center -mt-32'>
               <div className='h-96 w-96 hidden sm:block'>
                 <Canvas className='ml-16 -mt-40'>
                   <OrbitControls enableZoom={false} />
@@ -62,7 +62,7 @@ export default function Home({ darkMode }) {
                   src={backgroundImage}
                   width={300}
                   height={300}
-                  className='rounded-full hover:opacity-80 duration-500 hover:rotate-6 hover:scale-125 cursor-none'
+                  className='rounded-full hover:opacity-80 duration-500 hover:rotate-3 hover:scale-125 cursor-none'
                   alt='deved'
                 />
                 
