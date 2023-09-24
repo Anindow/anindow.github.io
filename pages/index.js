@@ -82,13 +82,13 @@ export default function Home({ darkMode }) {
         <ServicesSection />
         <section className='py-10'>
           <div>
-            <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+            <h3 className='text-3xl lg:text-5xl py-1 dark:text-white'>Portfolio</h3>
+            <p className='text-md lg:text-lg py-2 leading-8 text-gray-800 dark:text-gray-200'>
               Independent and self-motivated graduate with a strong enthusiasm
               for creating innovative web solutions. Proficient in utilizing a
               diverse tech stack, including{" "}
-              <span className='text-teal-500'>React</span>, Next.js, Node.js,
-              Bootstrap, and <span className='text-teal-500'>Tailwind CSS</span>
+              <span className='text-teal-500 font-semibold'>React</span>, Next.js, Node.js,
+              Bootstrap, and <span className='text-teal-500 font-semibold'>Tailwind CSS</span>
               . With a solid foundation in front-end development, I have a keen
               eye for detail and a passion for crafting visually appealing and
               user-friendly websites. My expertise extends to back-end

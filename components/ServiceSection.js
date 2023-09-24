@@ -5,17 +5,17 @@ import Image from "next/image"
 const ServicesSection = () => {
   const cardClass =
     "text-center shadow-lg p-10 rounded-xl my-10  dark:bg-slate-800 flex-1 hover:shadow-xl hover:shadow-teal-600 dark:hover:shadow-teal-600 transform transition-transform duration-300 hover:scale-105 "
-  const textColor = "text-gray-800 py-1 dark:text-gray-200"
+  const textColor = "text-gray-800 py-1 lg:text-lg dark:text-gray-200"
   const textColorCardHeading =
-    "text-gray-800 text-2xl font-medium py-6  dark:text-gray-200"
-  const h4color = "py-4 text-teal-600 font-semibold dark:text-teal-400"
+    "text-gray-800 text-2xl font-medium py-6 lg:text-4xl dark:text-gray-200"
+  const h4color = "py-4 text-teal-600 lg:text-2xl font-semibold dark:text-teal-400"
   const shineClass =
     "absolute top-0 -inset-full h-full w-1/2 z-5   block transform -skew-x-12 bg-gradient-to-r from-transparent to-white dark:to-slate-800  dark:opacity-20 hover:opacity-40 group-hover:animate-shine"
   return (
-    <section className="-mt-96">
+    <section className="-mt-96 ">
       <div className="">
-        <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+        <h3 className="text-3xl py-1 dark:text-white lg:text-5xl">Services I offer</h3>
+        <p className="text-md lg:text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
           I am a multifaceted
           <span className="text-teal-500 dark:text-teal-300">
             {" "}
@@ -28,12 +28,12 @@ const ServicesSection = () => {
           results, I offer a diverse range of services to meet your unique
           needs.
         </p>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 lg:text-xl">
           I offer from a wide range of services, including brand design,
           programming and teaching.
         </p>
       </div>
-      <div className="lg:flex gap-10">
+      <div className="lg:flex gap-8">
         <div className={`${cardClass} group relative cursor-pointer`}>
           <Image src={design} width={100} height={100} />
           <h3 className={textColorCardHeading}>Beautiful Designs</h3>

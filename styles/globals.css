@@ -22,3 +22,33 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+.slick-dots li button::before {
+  font-size: 15px !important;
+  color:  #00796B !important;
+  opacity: 0.7;
+}
+.slick-prev {
+  width: 30px!important; /* Adjust the width as needed */
+  height: 30px!important; /* Adjust the height as needed */
+  left: 10px!important; /* Adjust the position as needed */
+  background-color: #00796B!important; /* Replace with your desired background color */
+  opacity: 0.7!important;
+  z-index: 1; /* Ensure it's above the slider content */
+}
+
+/* Style for the next button (right arrow) */
+.slick-next {
+  width: 30px!important; /* Adjust the width as needed */
+  height: 30px!important; /* Adjust the height as needed */
+  right: 10px!important; /* Adjust the position as needed */
+  background-color: #00796B !important; /* Replace with your desired background color */
+  opacity: 0.7!important;
+  z-index: 1; /* Ensure it's above the slider content */
+}
+
+/* Style for the icons (left and right arrows) inside the buttons */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 15px; /* Adjust the font size as needed */
+  color: white; /* Replace with your desired icon color */
+}

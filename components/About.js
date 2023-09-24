@@ -87,8 +87,8 @@ const About = () => {
       </div>
     <br /><br /><br />
       <AboutCards />
-      <br /><br /><br />
-      <div className=" "> <Hobby /></div>
+     <br />
+      <Hobby />
     </>
   );
 };

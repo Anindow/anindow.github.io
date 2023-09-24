@@ -12,7 +12,7 @@ const Nav = ({ darkMode, setDarkMode }) => {
 
   return (
     <nav
-      className={`lg:pt-10 lg:pb-2 py-2 content-center flex justify-between sticky top-0 z-50 lg:px-64 md:px-10 sm:px-10 px-8 " ${
+      className={`md:pt-10 md:pb-2 py-2 content-center flex justify-between sticky top-0 z-50 lg:px-64 md:px-10 sm:px-10 px-8 " ${
         darkMode ? "bg-slate-900 text-white" : "bg-white text-black"
       }`}
     >
