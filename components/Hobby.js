@@ -29,7 +29,7 @@ const hobbiesData = [
     return (
       <div className="text-center mt-4 dark:text-white">
         <div className="relative">
-          <div className="absolute -top-28 left-0 right-96 text-8xl m-12 text-slate-800 font-semibold dark:text-teal-400 dark:bg-gray-800 dark:border-teal-700 max-w-md p-6 border border-cyan-200 rounded-lg shadow-md z-10 backdrop-blur-lg">
+          <div className="lg:absolute -top-28 left-0 right-96 lg:text-8xl m-12 text-slate-800 font-semibold dark:text-teal-400 dark:bg-gray-800 bg-red-300 dark:border-teal-700 max-w-md p-6 border border-cyan-200 rounded-lg shadow-md z-10 backdrop-blur-lg ">
             Hobbies
           </div>
           <div

@@ -16,24 +16,25 @@ const Nav = ({ darkMode, setDarkMode }) => {
         darkMode ? "bg-slate-900 text-white" : "bg-white text-black"
       }`}
     >
-      <span className="font-burtons font-bold text-2xl hover:text-red-500">
-        <Link href="/">Sai</Link>
-      </span>
+      
       {/* Mobile Menu Button */}
       <button
-        className="sm:hidden text-xl focus:outline-none "
+        className="sm:hidden text-xl focus:outline-none ms-4"
         onClick={handleMenuToggle}
       >
         <a
           className={
             isMenuOpen
-              ? "bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md"
+              ? "bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md "
               : ""
           }
         >
-          ☰
+          Ξ
         </a>
       </button>
+      <span className="font-burtons font-bold text-2xl hover:text-red-500">
+        <Link href="/">Sai</Link>
+      </span>
       {/* Mobile Menu Slider */}
       <div
         className={`fixed top-0 right-0 h-screen w-56 ${

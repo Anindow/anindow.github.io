@@ -69,7 +69,7 @@ export default function Home({ darkMode }) {
               </div>
               <div className='sm:hidden -mt-80'>
                 <Image
-                  src={deved}
+                  src={deved1}
                   width={300}
                   height={300}
                   className='mx-auto rounded-full'
