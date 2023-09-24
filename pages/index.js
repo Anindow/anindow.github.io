@@ -28,7 +28,7 @@ export default function Home({ darkMode }) {
               Developer and designer.
             </h3>
             <p className='text-md py-5  leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'></p>
-            <div className='text-5xl flex justify-center gap-16 pt-3  text-gray-600 dark:text-gray-400 group relative cursor-pointer'>
+            <div className='text-5xl flex justify-center gap-16 pt-3 text-gray-600 dark:text-gray-400 group relative cursor-pointer mb-10'>
               <a href='https://www.facebook.com/AnindowS'>
                 <AiFillFacebook className='hover:text-teal-600 dark:text-teal-400' />
               </a>
@@ -56,7 +56,7 @@ export default function Home({ darkMode }) {
                   </Sphere>
                 </Canvas>
               </div>
-              <div className='relative -mt-80 -ml-72 rounded-full overflow-hidden hidden sm:block'>
+              <div className='relative -mt-80 -ml-72 rounded-full  overflow-hidden hidden sm:block'>
                 <div className='w-full h-full opacity-80 dark:opacity-100 absolute bg-gradient-to-b from-black to-black' />
                 <Image
                   src={backgroundImage}
@@ -67,7 +67,7 @@ export default function Home({ darkMode }) {
                 />
                 
               </div>
-              <div className='sm:hidden -mt-80'>
+              <div className='sm:hidden -mt-80 '>
                 <Image
                   src={deved1}
                   width={300}

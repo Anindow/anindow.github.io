@@ -12,7 +12,7 @@ const ServicesSection = () => {
   const shineClass =
     "absolute top-0 -inset-full h-full w-1/2 z-5   block transform -skew-x-12 bg-gradient-to-r from-transparent to-white dark:to-slate-800  dark:opacity-20 hover:opacity-40 group-hover:animate-shine"
   return (
-    <section className="-mt-96 ">
+    <section className="-mt-96  ">
       <div className="">
         <h3 className="text-3xl py-1 dark:text-white lg:text-5xl">Services I offer</h3>
         <p className="text-md lg:text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">

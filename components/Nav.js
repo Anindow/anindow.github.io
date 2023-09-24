@@ -12,7 +12,7 @@ const Nav = ({ darkMode, setDarkMode }) => {
 
   return (
     <nav
-      className={`md:pt-10 md:pb-2 py-2 content-center flex justify-between sticky top-0 z-50 lg:px-64 md:px-10 sm:px-10 px-8 " ${
+      className={`lg:pt-10 lg:pb-4 py-4 content-center flex justify-between sticky top-0 z-50 lg:px-64 md:px-10 sm:px-10 px-8 " ${
         darkMode ? "bg-slate-900 text-white" : "bg-white text-black"
       }`}
     >
@@ -45,7 +45,8 @@ const Nav = ({ darkMode, setDarkMode }) => {
             : "translate-x-full"
         } sm:hidden`}
       >
-        <ul className="font-medium text-2xl flex flex-col gap-4 py-10 px-6 mt-20">
+        <ul className=" text-2xl px-6  pt-4 text-red-700 font-bold 	cursor: pointer" onClick={handleMenuToggle}  > X</ul>
+        <ul className="font-medium text-2xl flex flex-col gap-4 py-10 px-6 mt-20" >
           <li className={` shadow-md  ${darkMode ? 'bg-slate-800 shadow-md shadow-teal-400' : 'bg-cyan-50'} p-4 rounded-sm`}>
           <a  onClick={handleMenuToggle} href="#about">
               About
