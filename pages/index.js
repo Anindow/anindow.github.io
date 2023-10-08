@@ -8,9 +8,39 @@ import { Canvas } from "react-three-fiber"
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei"
 import ServicesSection from "../components/ServiceSection"
 import About from "../components/About"
+import FloatingButton from "../components/FloatingButton"
+import {useState,useRef,useEffect} from "react"
 
 export default function Home({ darkMode }) {
   const backgroundImage = darkMode ? deved : deved1;
+  const [showFloatingButton, setShowFloatingButton] = useState(false);
+
+  const bottomRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "800px",
+      threshold: 1, // Adjust the threshold to control when the button appears
+    };
+
+    const handleIntersect = (entries) => {
+      entries.forEach((entry) => {
+        setShowFloatingButton(entry.isIntersecting);
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersect, options);
+    if (bottomRef.current) {
+      observer.observe(bottomRef.current);
+    }
+
+    return () => {
+      if (bottomRef.current) {
+        observer.unobserve(bottomRef.current);
+      }
+    };
+  }, []);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -104,6 +134,8 @@ export default function Home({ darkMode }) {
           <Work />
           <br /> <br /> <br />
           <About />
+          <div ref={bottomRef} />
+          {showFloatingButton && <FloatingButton />}
         </section>
       </main>
     </div>
