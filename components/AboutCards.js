@@ -84,7 +84,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://react.dev/learn'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -197,7 +197,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://git-scm.com/doc'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -218,7 +218,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://tailwindcss.com/docs/installation'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -299,7 +299,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://parceljs.org/docs/'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -348,7 +348,7 @@ const AboutCards = () => {
             </li>{" "}
             <li className=''>
               <a
-                href='#'
+                href='https://expressjs.com/en/5x/api.html'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -386,7 +386,7 @@ const AboutCards = () => {
           <ul className='my-4 space-y-1 me-2  '>
             <li className=''>
               <a
-                href='#'
+                href='https://developer.mozilla.org/en-US/docs/Web/CSS'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -447,7 +447,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://nextjs.org/docs'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -468,7 +468,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://docs.github.com/en'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -516,7 +516,7 @@ const AboutCards = () => {
 
             <li className=''>
               <a
-                href='#'
+                href='https://getbootstrap.com/docs/5.3/getting-started/introduction/'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -553,7 +553,7 @@ const AboutCards = () => {
             </li>
             <li className=''>
               <a
-                href='#'
+                href='https://webpack.js.org/concepts/'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
@@ -710,7 +710,7 @@ const AboutCards = () => {
           <ul className='my-4 space-y-1 me-2  '>
             <li className=''>
               <a
-                href='#'
+                href='https://sass-lang.com/documentation/'
                 className='flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-600 dark:hover:bg-gray-500 dark:text-white'
               >
                 <svg
